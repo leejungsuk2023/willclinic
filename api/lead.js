@@ -2,7 +2,7 @@
 const crypto = require('crypto');
 
 const PIXEL_ID = '3372319072916447';  // Will Plastic Surgery Dataset ID
-const ACCESS_TOKEN = process.env.META_ACCESS_TOKEN || 'EAAKnxXipVygBPbaQyNHEvDsjkIwZAIM369UXCt9ysEFOF0HYZBeCadogBt0tZBFjTmeg8z0iK94CDtZCgmE3yjN99sCL3litw7lGNkmWTYGyiRfc18HD51Wx1NJrs00D2ICnItwGX9mOy9XOhxVoGU4uxpgT7M37KQstxa4U9d3U3SeBNlLxxoo50gzSZCdLbHgZDZD';        // Vercel env
+const ACCESS_TOKEN = process.env.META_ACCESS_TOKEN || 'EAFlLyleg8ZC0BP88hzPOsyXPLxqI7CRO8a5Ja3KfNgDXqRkntIysampRYNSzcKdySZAF5pONjXqV6R8ONDaXATUnkfUfzXTyVAOMZCfi4go9cFC1fCwtYb8m8GHGSDbWSyS9Tuym7Mw6v6DEnyUYMd9TfPHkp84bosKN3UPG0aYtrzX9ODWhb2SYgjUQDf2AgZDZD';        // Vercel env
 
 function sha256Lower(s) {
   return crypto.createHash('sha256').update((s || '').trim().toLowerCase()).digest('hex');
