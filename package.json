@@ -1,0 +1,25 @@
+{
+  "name": "will-plastic-surgery",
+  "version": "1.0.0",
+  "description": "Will Plastic Surgery - Premium Plastic Surgery Clinic with META pixel integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "beauty",
+    "clinic",
+    "plastic-surgery",
+    "cosmetic-surgery",
+    "meta-pixel",
+    "capi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
